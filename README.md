@@ -11,8 +11,7 @@ Specifically, when K = 5, macro accuracy = 0.731, micro accuracy = 0.924, and ov
 
 It is interesting to note that this dataset is highly imbalanced, with class 1 occupying about 89% of all the data points. And from the graph, micro statistics have higher values than macro statistics, which indicates that the model is almost perfect at predicting the majority class while relatively poorly predicting the minority class. But as the difference between maco and mico accuracy is not significant, it indicates that the model’s good performance on the majority class is compensating for its poor performance on the minority class. 
 
-
-<img width="1154" alt="Screen Shot 2023-11-18 at 6 10 23 PM" src="https://github.com/JessicaaaJe/Jesscia_Data_Mining_Project/assets/94040700/d56e5755-6215-40f9-849b-3b6e6dcd2cee">
+![Alt Text](image/figure1)
 
 ## Random Forest Assessment: 
 
@@ -23,9 +22,9 @@ I changed two parameters that directly affect the performance of classification:
 1. N_estimators (the number of trees in the forest) 2. Max_depth (the depth of the tree) 
 But surprisingly, changing the value of the parameter does not make a significant difference in the accuracy values. Microstatistics still has the highest value over the three accuracies, which indicates that in a random forest model, the performance is better when conducting predictions on the majority class than it was in the minority class.
 
-<img width="988" alt="Screen Shot 2023-11-18 at 6 10 55 PM" src="https://github.com/JessicaaaJe/Jesscia_Data_Mining_Project/assets/94040700/0a6d772d-2e0c-40e3-a351-1e9bd335de89">
+![Alt Text](image/figure2.png)
 
-<img width="860" alt="Screen Shot 2023-11-18 at 6 11 00 PM" src="https://github.com/JessicaaaJe/Jesscia_Data_Mining_Project/assets/94040700/c394df97-7aed-429b-bd37-6d88bfbc33b1">
+![Alt Text](image/figure3.png)
 
 
 
